@@ -1,0 +1,12 @@
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/bin/Debug/net7.0/Escambo.domain.deps.json
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/bin/Debug/net7.0/Escambo.domain.dll
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/bin/Debug/net7.0/Escambo.domain.pdb
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/Escambo.domain.csproj.AssemblyReference.cache
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/Escambo.domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/Escambo.domain.AssemblyInfoInputs.cache
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/Escambo.domain.AssemblyInfo.cs
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/Escambo.domain.csproj.CoreCompileInputs.cache
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/Escambo.domain.dll
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/refint/Escambo.domain.dll
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/Escambo.domain.pdb
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Core/Escambo.domain/obj/Debug/net7.0/ref/Escambo.domain.dll

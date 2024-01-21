@@ -1,0 +1,5 @@
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Insfrastructe/Escambo.Pesistence/obj/Debug/net7.0/Escambo.Pesistence.csproj.AssemblyReference.cache
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Insfrastructe/Escambo.Pesistence/obj/Debug/net7.0/Escambo.Pesistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Insfrastructe/Escambo.Pesistence/obj/Debug/net7.0/Escambo.Pesistence.AssemblyInfoInputs.cache
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Insfrastructe/Escambo.Pesistence/obj/Debug/net7.0/Escambo.Pesistence.AssemblyInfo.cs
+/home/daniel-oliveira-da-silva/.local/share/Trash/files/RTIC18-ProjetoPessoal-G1.4/RTIC18-ProjetoPessoal-G1/Escambo/Insfrastructe/Escambo.Pesistence/obj/Debug/net7.0/Escambo.Pesistence.csproj.CoreCompileInputs.cache
