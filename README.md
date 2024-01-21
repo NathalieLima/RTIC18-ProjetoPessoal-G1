@@ -2,9 +2,12 @@
 
 # Descrição do Projeto "Escambo":
 
-Escambo consiste em uma rede social em que os usuários podem fazer
-requisições de certos serviços, ao mesmo tempo que podem fazer serviços a
-outros usuários, sendo que todos os serviços serão essencialmente gratuitos.
+Escambo será uma plataforma online que facilita a troca de serviços entre usuários. 
+No Escambo, os usuários podem atuar como prestadores de serviços, anunciando os serviços que oferecem, e como contratantes, contratando serviços de outros usuários. 
+Todos os serviços são essencialmente gratuitos.
+
+Os usuários, como contratantes, podem navegar pelos anúncios e contratar serviços. 
+Cada prestação de servico está associada a um único anúncio de serviço.
 
 O projeto tem como intenção dar oportunidade à pessoas de adquirir experiência
 com trabalhos de sua área que ela se candidatar, enquanto fornece soluções gratuitas
@@ -17,7 +20,7 @@ do serviço. Portanto, um chat será necessário.
 
 ## Entidades:
 
-### usuario
+### Usuario
 Além das variáveis padrão de um usuário (nome, email, cpf, entre outros), ele também possui:
 - "credito", que é uma moeda referente ao tempo e à complexidade dos trabalhos feitos
 - "link_linkedIn" do usuário (não obrigatório);
@@ -25,16 +28,20 @@ Além das variáveis padrão de um usuário (nome, email, cpf, entre outros), el
 
 ele tem uma relação de 0-n com "conversa" e 0-n com "prestacao_servico"
 
-### conversa
+### Conversa
 Guarda o id tanto do remetente quanto do destinatário e possui uma relação 0-n com "mensagem"
 
-### mensagem
+### Mensagem
 Guarda o id do remetente e do destinatário, a Data-hora e o conteúdo da mensagem
 
-### prestacao_servico
+### Prestacao_servico
 Guarda o id do Contratante e do Prestador, além da Data-hora de inicio e de conclusão.
- Cada prestação possui 0-1 item
+Cada prestação possui 0-1 item
 
-### item
-É o produto final de uma prestacao_serviço (a qual sempre está exclusivamente relacionado a 
-um). Possui a descricao do item, o credito  e a categoria. 
+### Anuncio
+O usuário anuncia os serviços que oferece. 
+Cada anúncio inclui detalhes sobre o serviço, bem como a quantidade de créditos que o usuário considera adequada para a prestação do serviço.
+
+### Avaliacao 
+Após a conclusão de uma contratação, tanto o prestador quanto o contratante têm a oportunidade de avaliar um ao outro. 
+Essas avaliações ajudam a construir a reputação dos usuários na plataforma e a garantir a qualidade dos serviços oferecidos.
