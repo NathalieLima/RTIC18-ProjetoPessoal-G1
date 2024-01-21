@@ -3,9 +3,9 @@ using Escambo.domain.Interface;
 
 public interface IUserRepository : IBaseRepository<User>
 {
-    User FindByEmail(string email); //encontrar pelo email
-    User FindByName(string name); //encontrar pelo nome
-    void UpdatePassword(int userId, string newPassword); //atualizar a senha
-    IEnumerable<User> GetAllActiveUsers(CancellationToken cancellationToken); //pegar todos os usuarios ativos
+    Task<User> FindByEmail(string email, CancellationToken cancellationToken); //encontrar pelo email
+    Task<User> FindByName(string name, CancellationToken  cancellationToken); //encontrar pelo nome
+    void UpdatePassword(int userId, string newPassword, CancellationToken cancellationToken); //atualizar a senha
+    Task<IEnumerable<User>> GetAllActiveUsers(CancellationToken cancellationToken); //pegar todos os usuarios ativos
 }
 

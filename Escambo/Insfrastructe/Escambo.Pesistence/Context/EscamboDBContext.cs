@@ -28,5 +28,7 @@ public class EscamboDBContext: DbContext
             entity.Property(n => n.Birth).IsRequired();
         });
     }
+
+
     #endregion
 }

@@ -11,4 +11,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Insfrastructe\Escambo.Pesistence\Escambo.Pesistence.csproj" />
+    <ProjectReference Include="..\..\Core\Escambo.domain\Escambo.domain.csproj" />
+  </ItemGroup>
+
 </Project>
