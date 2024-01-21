@@ -1,17 +1,31 @@
-namespace Escambo.Domain.Entities;
-public sealed class User: BaseEntity 
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace Escambo.Domain.Entities
 {
-    public int UserId { get; set; }
-    public string? Name { get; set; } //nome
-    public required string? Email{get;set;} //email
-    public required string Password { get; set; } //senha
-    public required string? CPF {get; set;}
-    public required string? RG {get; set;}
-    public DateTime Birth {get;set;} //aniversario
-    public string? Address {get; set;} //endereço
-    public int Status {get;set;} 
-    public decimal Credit {get;set;} //credito
-    public ICollection<Advertisement> Advertisements {get;} = new List<Advertisement>();
+    public sealed class User : BaseEntity
+    {
+        public int UserId { get; set; }
+        public string? Name { get; set; } // Nome
+        [Required]
+        public string? Email { get; set; } // Email
+        [Required]
+        public string Password { get; set; } // Senha
+        [Required]
+        public string? CPF { get; set; }
+        [Required]
+        public string? RG { get; set; }
+        public DateTime Birth { get; set; } // Aniversário
+        public string? Address { get; set; } // Endereço
+        public int Status { get; set; }
+        public decimal Credit { get; set; } // Crédito
+        public ICollection<Advertisement> Advertisements { get; } = new List<Advertisement>();
 
+        // Avaliações como avaliador
+        public ICollection<Avaluation>? EvaluationsAsEvaluator { get; set; }
 
+        // Avaliações como avaliado
+        public ICollection<Avaluation>? EvaluationsAsEvaluated { get; set; }
+    }
 }
