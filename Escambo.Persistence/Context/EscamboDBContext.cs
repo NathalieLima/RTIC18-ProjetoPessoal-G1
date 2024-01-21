@@ -36,6 +36,17 @@ public class EscamboContext: DbContext
             .HasOne(a => a.User)//Cada Anuncio está associado a apenas um Usuario
             .WithMany(u => u.Advertisements)//Um Usuario pode ter muitos anuncios
             .HasForeignKey(a => a.UserId);
+             //Um Usuario pode ter muitas Avaliacoes
+        //e uma Avaliacao pode estar associada a muitos Usuarios
+        // (um usuário como avaliador e outro como avaliado).
+        modelBuilder.Entity<Avaluation>()
+        .HasOne(a => a.Avaliador)
+        .WithMany(u => u.EvaluationsAsEvaluator)
+        .HasForeignKey(a => a.AvaliadorId);
+
+        modelBuilder.Entity<Avaluation>()
+        .HasOne(a => a.Avaliado)
+        .WithMany(u => u.EvaluationsAsEvaluated);
     }
 
 
