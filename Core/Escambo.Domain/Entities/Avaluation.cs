@@ -1,20 +1,28 @@
-namespace Escambo.Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 
-public sealed class Avaluation: BaseEntity //avaliação
+namespace Escambo.Domain.Entities
 {
-    public int AvaluationId { get; set; }
-    // anuncio referencia para o entity criar o relacionamento
-    public int PosterId { get; set; } 
-    public required Poster Poster { get; set; } 
+    public sealed class Avaluation : BaseEntity
+    {
+        public int AvaluationId { get; set; }
 
-    //Usuario
-    public int UserId { get; set; }
-    public required User User { get; set; }
+        // Referência para o anúncio
+        public int PosterId { get; set; }
+        public Poster Poster { get; set; }
 
-    // estrelas
-    public int Star { get; set; }
+        // Referência para o usuário avaliador
+        public int AvaliadorId { get; set; }
+        public User Avaliador { get; set; }
 
-    //comentario
-    public string? Comment { get; set; }
- 
+        // Referência para o usuário avaliado
+        public int AvaliadoId { get; set; }
+        public User Avaliado { get; set; }
+
+        // Estrelas
+        public int Star { get; set; }
+
+        // Comentário
+        public string? Comment { get; set; }
+    }
 }
+
