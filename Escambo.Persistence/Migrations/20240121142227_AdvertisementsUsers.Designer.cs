@@ -3,6 +3,7 @@ using System;
 using Escambo.Pesistence.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Escambo.Persistence.Migrations
 {
     [DbContext(typeof(EscamboContext))]
-    partial class EscamboContextModelSnapshot : ModelSnapshot
+    [Migration("20240121142227_AdvertisementsUsers")]
+    partial class AdvertisementsUsers
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

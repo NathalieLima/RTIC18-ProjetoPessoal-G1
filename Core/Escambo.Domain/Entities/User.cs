@@ -11,5 +11,7 @@ public sealed class User: BaseEntity
     public string? Address {get; set;} //endereço
     public int Status {get;set;} 
     public decimal Credit {get;set;} //credito
+    public ICollection<Advertisement> Advertisements {get;} = new List<Advertisement>();
+
 
 }
