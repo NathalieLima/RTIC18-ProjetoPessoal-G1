@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Escambo.Domain
-build_property.ProjectDir = /home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/
+build_property.RootNamespace = Escambo.Persistence
+build_property.ProjectDir = /home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/

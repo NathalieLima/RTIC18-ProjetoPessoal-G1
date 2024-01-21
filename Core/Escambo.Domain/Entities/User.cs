@@ -1,6 +1,7 @@
 namespace Escambo.Domain.Entities;
 public sealed class User: BaseEntity 
 {
+    public int UserId { get; set; }
     public string? Name { get; set; } //nome
     public required string? Email{get;set;} //email
     public required string Password { get; set; } //senha
@@ -10,5 +11,7 @@ public sealed class User: BaseEntity
     public string? Address {get; set;} //endereço
     public int Status {get;set;} 
     public decimal Credit {get;set;} //credito
+    public ICollection<Advertisement> Advertisements {get;} = new List<Advertisement>();
+
 
 }

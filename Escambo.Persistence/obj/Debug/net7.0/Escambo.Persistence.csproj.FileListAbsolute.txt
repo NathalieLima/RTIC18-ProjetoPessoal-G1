@@ -1,0 +1,34 @@
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/bin/Debug/net7.0/Escambo.Persistence.deps.json
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/bin/Debug/net7.0/Escambo.Persistence.runtimeconfig.json
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/bin/Debug/net7.0/Escambo.Persistence.dll
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/bin/Debug/net7.0/Escambo.Persistence.pdb
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/bin/Debug/net7.0/Escambo.Domain.dll
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/bin/Debug/net7.0/Escambo.Domain.pdb
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.csproj.AssemblyReference.cache
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.AssemblyInfoInputs.cache
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.AssemblyInfo.cs
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.csproj.CoreCompileInputs.cache
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.csproj.CopyComplete
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.dll
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/refint/Escambo.Persistence.dll
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.pdb
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.genruntimeconfig.cache
+/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/Debug/net7.0/ref/Escambo.Persistence.dll
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.csproj.AssemblyReference.cache
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.AssemblyInfoInputs.cache
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.AssemblyInfo.cs
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.csproj.CoreCompileInputs.cache
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.dll
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/refint/Escambo.Persistence.dll
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.pdb
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/bin/Debug/net7.0/Escambo.Persistence.deps.json
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/bin/Debug/net7.0/Escambo.Persistence.runtimeconfig.json
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/bin/Debug/net7.0/Escambo.Persistence.dll
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/bin/Debug/net7.0/Escambo.Persistence.pdb
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/bin/Debug/net7.0/Escambo.Domain.dll
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/bin/Debug/net7.0/Escambo.Domain.pdb
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.csproj.CopyComplete
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/Escambo.Persistence.genruntimeconfig.cache
+/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/Debug/net7.0/ref/Escambo.Persistence.dll
