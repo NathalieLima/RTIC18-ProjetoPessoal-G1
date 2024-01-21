@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U3PO0jNI2+5jxvLz0GTRqxsI/0HbAIza8SNSav1P/4kV1VkdKq8ZPknt1jUDjJ3iY51wSWfz0Gf7pLOhlzXm8w==",
+  "dgSpecHash": "UBMLwbrchpfgyFxLT53xuU9DkO0f5j1UfWNvlrI9u17LMWQeJWCB2QcDwRwAGkJTF2xIlTKfJF2oCbwuSzHYOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cauac\\Desktop\\p05\\RTIC18-ProjetoPessoal-G1\\Core\\Escambo.Domain\\Escambo.Domain.csproj",
+  "projectFilePath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

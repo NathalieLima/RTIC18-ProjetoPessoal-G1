@@ -1,4 +1,4 @@
-using Escambo.domain.Entities;
+using Escambo.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 namespace Escambo.Pesistence.Context;
 

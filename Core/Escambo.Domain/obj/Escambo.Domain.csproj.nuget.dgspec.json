@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cauac\\Desktop\\p05\\RTIC18-ProjetoPessoal-G1\\Core\\Escambo.Domain\\Escambo.Domain.csproj": {}
+    "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cauac\\Desktop\\p05\\RTIC18-ProjetoPessoal-G1\\Core\\Escambo.Domain\\Escambo.Domain.csproj": {
+    "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cauac\\Desktop\\p05\\RTIC18-ProjetoPessoal-G1\\Core\\Escambo.Domain\\Escambo.Domain.csproj",
+        "projectUniqueName": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
         "projectName": "Escambo.Domain",
-        "projectPath": "C:\\Users\\cauac\\Desktop\\p05\\RTIC18-ProjetoPessoal-G1\\Core\\Escambo.Domain\\Escambo.Domain.csproj",
-        "packagesPath": "C:\\Users\\cauac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cauac\\Desktop\\p05\\RTIC18-ProjetoPessoal-G1\\Core\\Escambo.Domain\\obj\\",
+        "projectPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
+        "packagesPath": "/home/daniel-oliveira-da-silva/.nuget/packages/",
+        "outputPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cauac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/daniel-oliveira-da-silva/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
         }
       }
     }
