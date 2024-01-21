@@ -1,6 +1,8 @@
 namespace Escambo.Domain.Entities;
 public sealed class Chat : BaseEntity
 {
+    
+    public int ChatId { get; set; }
     public DateTime BeginDate { get; set; } //hora de incio
     public DateTime EndDate { get; set; } //hora de enceramento
 

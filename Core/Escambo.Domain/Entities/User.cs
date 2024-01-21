@@ -1,6 +1,7 @@
 namespace Escambo.Domain.Entities;
 public sealed class User: BaseEntity 
 {
+    public int UserId { get; set; }
     public string? Name { get; set; } //nome
     public required string? Email{get;set;} //email
     public required string Password { get; set; } //senha

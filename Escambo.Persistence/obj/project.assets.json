@@ -1027,8 +1027,8 @@
     },
     "Escambo.Domain/1.0.0": {
       "type": "project",
-      "path": "../Escambo.Domain/Escambo.Domain.csproj",
-      "msbuildProject": "../Escambo.Domain/Escambo.Domain.csproj"
+      "path": "../Core/Escambo.Domain/Escambo.Domain.csproj",
+      "msbuildProject": "../Core/Escambo.Domain/Escambo.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1043,19 +1043,19 @@
     ]
   },
   "packageFolders": {
-    "/home/daniel-oliveira-da-silva/.nuget/packages/": {}
+    "/home/lores/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/Escambo.Persistence.csproj",
+      "projectUniqueName": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj",
       "projectName": "Escambo.Persistence",
-      "projectPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/Escambo.Persistence.csproj",
-      "packagesPath": "/home/daniel-oliveira-da-silva/.nuget/packages/",
-      "outputPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Persistence/obj/",
+      "projectPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj",
+      "packagesPath": "/home/lores/.nuget/packages/",
+      "outputPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/daniel-oliveira-da-silva/.nuget/NuGet/NuGet.Config"
+        "/home/lores/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -1067,8 +1067,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
-              "projectPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj"
+            "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
+              "projectPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj"
             }
           }
         }
@@ -1128,7 +1128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
       }
     }
   }

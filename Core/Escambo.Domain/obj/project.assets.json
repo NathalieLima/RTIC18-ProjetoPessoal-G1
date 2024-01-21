@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/daniel-oliveira-da-silva/.nuget/packages/": {}
+    "/home/lores/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
+      "projectUniqueName": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
       "projectName": "Escambo.Domain",
-      "projectPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
-      "packagesPath": "/home/daniel-oliveira-da-silva/.nuget/packages/",
-      "outputPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/obj/",
+      "projectPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
+      "packagesPath": "/home/lores/.nuget/packages/",
+      "outputPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/daniel-oliveira-da-silva/.nuget/NuGet/NuGet.Config"
+        "/home/lores/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
       }
     }
   }

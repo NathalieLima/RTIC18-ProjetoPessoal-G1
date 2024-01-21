@@ -2,6 +2,7 @@ namespace Escambo.Domain.Entities;
 public sealed class Service: BaseEntity
 {
     
+    public int ServiceId { get; set; }
     public string? Description {get; set;} //descrição
     public string? Category {get;set;} //categoria
     public string? Type {get;set;} //tip

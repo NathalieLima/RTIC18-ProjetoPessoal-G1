@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Escambo.Domain\Escambo.Domain.csproj" />
+    <ProjectReference Include="..\Core\Escambo.Domain\Escambo.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
