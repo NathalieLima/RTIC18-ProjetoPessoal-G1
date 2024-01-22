@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Escambo.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class Inicial : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,20 +16,20 @@ namespace Escambo.Persistence.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Users",
+                name: "users",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    UserId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(type: "longtext", nullable: true)
+                    Name = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Email = table.Column<string>(type: "longtext", nullable: true)
+                    Email = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Password = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    CPF = table.Column<string>(type: "longtext", nullable: true)
+                    CPF = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    RG = table.Column<string>(type: "longtext", nullable: true)
+                    RG = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Birth = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     Address = table.Column<string>(type: "longtext", nullable: true)
@@ -42,7 +42,36 @@ namespace Escambo.Persistence.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Users", x => x.Id);
+                    table.PrimaryKey("PK_users", x => x.UserId);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "advertisements",
+                columns: table => new
+                {
+                    AdvertisementId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    Name = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Description = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Credit = table.Column<decimal>(type: "decimal(65,30)", nullable: true),
+                    Category = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Type = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    UserId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_advertisements", x => x.AdvertisementId);
+                    table.ForeignKey(
+                        name: "FK_advertisements_users_UserId",
+                        column: x => x.UserId,
+                        principalTable: "users",
+                        principalColumn: "UserId",
+                        onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -50,7 +79,7 @@ namespace Escambo.Persistence.Migrations
                 name: "Chats",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    ChatId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     BeginDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     EndDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
@@ -62,18 +91,18 @@ namespace Escambo.Persistence.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Chats", x => x.Id);
+                    table.PrimaryKey("PK_Chats", x => x.ChatId);
                     table.ForeignKey(
-                        name: "FK_Chats_Users_ReceiverId",
+                        name: "FK_Chats_users_ReceiverId",
                         column: x => x.ReceiverId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
+                        principalTable: "users",
+                        principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Chats_Users_SenderId",
+                        name: "FK_Chats_users_SenderId",
                         column: x => x.SenderId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
+                        principalTable: "users",
+                        principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
@@ -82,7 +111,7 @@ namespace Escambo.Persistence.Migrations
                 name: "Services",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    ServiceId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Description = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -96,26 +125,26 @@ namespace Escambo.Persistence.Migrations
                     WorkDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     CreditOffer = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
                     UserIdRequired = table.Column<int>(type: "int", nullable: false),
-                    UserRequiredId = table.Column<int>(type: "int", nullable: false),
+                    UserRequiredUserId = table.Column<int>(type: "int", nullable: false),
                     UserIdAccepted = table.Column<int>(type: "int", nullable: false),
-                    UserAcceptedId = table.Column<int>(type: "int", nullable: true),
+                    UserAcceptedUserId = table.Column<int>(type: "int", nullable: true),
                     Created = table.Column<DateTimeOffset>(type: "datetime(6)", nullable: false),
                     Updated = table.Column<DateTimeOffset>(type: "datetime(6)", nullable: false),
                     Deleted = table.Column<DateTimeOffset>(type: "datetime(6)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Services", x => x.Id);
+                    table.PrimaryKey("PK_Services", x => x.ServiceId);
                     table.ForeignKey(
-                        name: "FK_Services_Users_UserAcceptedId",
-                        column: x => x.UserAcceptedId,
-                        principalTable: "Users",
-                        principalColumn: "Id");
+                        name: "FK_Services_users_UserAcceptedUserId",
+                        column: x => x.UserAcceptedUserId,
+                        principalTable: "users",
+                        principalColumn: "UserId");
                     table.ForeignKey(
-                        name: "FK_Services_Users_UserRequiredId",
-                        column: x => x.UserRequiredId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
+                        name: "FK_Services_users_UserRequiredUserId",
+                        column: x => x.UserRequiredUserId,
+                        principalTable: "users",
+                        principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
@@ -124,7 +153,7 @@ namespace Escambo.Persistence.Migrations
                 name: "Messages",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    MessageId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Text = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -136,12 +165,12 @@ namespace Escambo.Persistence.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Messages", x => x.Id);
+                    table.PrimaryKey("PK_Messages", x => x.MessageId);
                     table.ForeignKey(
                         name: "FK_Messages_Chats_ChatId",
                         column: x => x.ChatId,
                         principalTable: "Chats",
-                        principalColumn: "Id",
+                        principalColumn: "ChatId",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
@@ -150,7 +179,7 @@ namespace Escambo.Persistence.Migrations
                 name: "Posters",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    PosterId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     UserId = table.Column<int>(type: "int", nullable: false),
                     ServiceId = table.Column<int>(type: "int", nullable: false),
@@ -160,18 +189,18 @@ namespace Escambo.Persistence.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Posters", x => x.Id);
+                    table.PrimaryKey("PK_Posters", x => x.PosterId);
                     table.ForeignKey(
                         name: "FK_Posters_Services_ServiceId",
                         column: x => x.ServiceId,
                         principalTable: "Services",
-                        principalColumn: "Id",
+                        principalColumn: "ServiceId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Posters_Users_UserId",
+                        name: "FK_Posters_users_UserId",
                         column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
+                        principalTable: "users",
+                        principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
@@ -180,10 +209,11 @@ namespace Escambo.Persistence.Migrations
                 name: "Avaluations",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    AvaluationId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     PosterId = table.Column<int>(type: "int", nullable: false),
-                    UserId = table.Column<int>(type: "int", nullable: false),
+                    AvaliadorId = table.Column<int>(type: "int", nullable: false),
+                    AvaliadoId = table.Column<int>(type: "int", nullable: false),
                     Star = table.Column<int>(type: "int", nullable: false),
                     Comment = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
@@ -193,31 +223,47 @@ namespace Escambo.Persistence.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Avaluations", x => x.Id);
+                    table.PrimaryKey("PK_Avaluations", x => x.AvaluationId);
                     table.ForeignKey(
                         name: "FK_Avaluations_Posters_PosterId",
                         column: x => x.PosterId,
                         principalTable: "Posters",
-                        principalColumn: "Id",
+                        principalColumn: "PosterId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Avaluations_Users_UserId",
-                        column: x => x.UserId,
-                        principalTable: "Users",
-                        principalColumn: "Id",
+                        name: "FK_Avaluations_users_AvaliadoId",
+                        column: x => x.AvaliadoId,
+                        principalTable: "users",
+                        principalColumn: "UserId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Avaluations_users_AvaliadorId",
+                        column: x => x.AvaliadorId,
+                        principalTable: "users",
+                        principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateIndex(
+                name: "IX_advertisements_UserId",
+                table: "advertisements",
+                column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Avaluations_AvaliadoId",
+                table: "Avaluations",
+                column: "AvaliadoId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Avaluations_AvaliadorId",
+                table: "Avaluations",
+                column: "AvaliadorId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Avaluations_PosterId",
                 table: "Avaluations",
                 column: "PosterId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Avaluations_UserId",
-                table: "Avaluations",
-                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Chats_ReceiverId",
@@ -245,19 +291,22 @@ namespace Escambo.Persistence.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Services_UserAcceptedId",
+                name: "IX_Services_UserAcceptedUserId",
                 table: "Services",
-                column: "UserAcceptedId");
+                column: "UserAcceptedUserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Services_UserRequiredId",
+                name: "IX_Services_UserRequiredUserId",
                 table: "Services",
-                column: "UserRequiredId");
+                column: "UserRequiredUserId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "advertisements");
+
             migrationBuilder.DropTable(
                 name: "Avaluations");
 
@@ -274,7 +323,7 @@ namespace Escambo.Persistence.Migrations
                 name: "Services");
 
             migrationBuilder.DropTable(
-                name: "Users");
+                name: "users");
         }
     }
 }
