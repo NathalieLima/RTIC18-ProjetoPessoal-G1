@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Escambo.Persistence.Migrations
 {
     [DbContext(typeof(EscamboContext))]
-    [Migration("20240121142227_AdvertisementsUsers")]
-    partial class AdvertisementsUsers
+    [Migration("20240122001203_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,6 +60,12 @@ namespace Escambo.Persistence.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int>("AvaliadoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("AvaliadorId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Comment")
                         .HasColumnType("longtext");
 
@@ -78,14 +84,13 @@ namespace Escambo.Persistence.Migrations
                     b.Property<DateTimeOffset>("Updated")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("AvaluationId");
 
-                    b.HasIndex("PosterId");
+                    b.HasIndex("AvaliadoId");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("AvaliadorId");
+
+                    b.HasIndex("PosterId");
 
                     b.ToTable("Avaluations");
                 });
@@ -257,6 +262,7 @@ namespace Escambo.Persistence.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("CPF")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<DateTimeOffset>("Created")
@@ -269,6 +275,7 @@ namespace Escambo.Persistence.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Email")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<string>("Name")
@@ -280,6 +287,7 @@ namespace Escambo.Persistence.Migrations
                         .HasColumnType("longtext");
 
                     b.Property<string>("RG")
+                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<int>("Status")
@@ -306,21 +314,29 @@ namespace Escambo.Persistence.Migrations
 
             modelBuilder.Entity("Escambo.Domain.Entities.Avaluation", b =>
                 {
+                    b.HasOne("Escambo.Domain.Entities.User", "Avaliado")
+                        .WithMany("EvaluationsAsEvaluated")
+                        .HasForeignKey("AvaliadoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Escambo.Domain.Entities.User", "Avaliador")
+                        .WithMany("EvaluationsAsEvaluator")
+                        .HasForeignKey("AvaliadorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Escambo.Domain.Entities.Poster", "Poster")
                         .WithMany()
                         .HasForeignKey("PosterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Escambo.Domain.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Avaliado");
+
+                    b.Navigation("Avaliador");
 
                     b.Navigation("Poster");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Escambo.Domain.Entities.Chat", b =>
@@ -392,6 +408,10 @@ namespace Escambo.Persistence.Migrations
             modelBuilder.Entity("Escambo.Domain.Entities.User", b =>
                 {
                     b.Navigation("Advertisements");
+
+                    b.Navigation("EvaluationsAsEvaluated");
+
+                    b.Navigation("EvaluationsAsEvaluator");
                 });
 #pragma warning restore 612, 618
         }
