@@ -1,6 +1,6 @@
 namespace Escambo.Domain.Entities;
 
-public sealed class Poster: BaseEntity{
+public sealed class Poster : BaseEntity { 
     
     public int PosterId { get; set; }
     public int UserId { get; set; }

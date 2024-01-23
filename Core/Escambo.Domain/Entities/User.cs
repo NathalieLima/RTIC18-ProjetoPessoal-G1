@@ -16,12 +16,12 @@ namespace Escambo.Domain.Entities
         public string? Address { get; set; } // Endereço
         public int Status { get; set; }
         public decimal Credit { get; set; } // Crédito
-        // public ICollection<Advertisement> Advertisements { get; } = new List<Advertisement>();
+        public ICollection<Advertisement> Advertisements { get; } = new List<Advertisement>();
 
-        // // Avaliações como avaliador
-        // public ICollection<Avaluation>? EvaluationsAsEvaluator { get; set; }
+        // Avaliações como avaliador
+        public ICollection<Avaluation>? AvaluationsAsAvaluator { get; set; }
 
-        // // Avaliações como avaliado
-        // public ICollection<Avaluation>? EvaluationsAsEvaluated { get; set; }
+        // Avaliações como avaliado
+        public ICollection<Avaluation>? AvaluationsAsAvaluated { get; set; }
     }
 }

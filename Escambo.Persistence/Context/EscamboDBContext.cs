@@ -4,6 +4,8 @@ namespace Escambo.Pesistence.Context;
 
 public class EscamboContext: DbContext
 {
+    
+
     public DbSet<Service> Services { get; set; }
     public DbSet<Poster> Posters { get; set; }
     public DbSet<User> Users { get; set; }
@@ -14,7 +16,7 @@ public class EscamboContext: DbContext
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
-        var connectionString = "server=localhost;user=nathamysql;password=Password123#@!;database=techmed";
+        var connectionString = "server=localhost;user=dotnet;password=tic2023;database=escambo";
         optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
     }
 
@@ -23,7 +25,7 @@ public class EscamboContext: DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<User>().ToTable("usuarios4").HasKey(u => u.UserId);
+        modelBuilder.Entity<User>().ToTable("users").HasKey(u => u.UserId);
         modelBuilder.Entity<User>().Property(u => u.Name).IsRequired();
         
         modelBuilder.Entity<Advertisement>().ToTable("advertisements").HasKey(a => a.AdvertisementId);
@@ -31,20 +33,20 @@ public class EscamboContext: DbContext
         
         //Um Usuario pode ter muitos Anuncios de Servicos.
         modelBuilder.Entity<Advertisement>()
-            .HasOne(a => a.User); //Cada Anuncio está associado a apenas um Usuario
-            // .WithMany(u => u.Advertisements)//Um Usuario pode ter muitos anuncios
-            // .HasForeignKey(a => a.UserId);
+            .HasOne(a => a.User)//Cada Anuncio está associado a apenas um Usuario
+            .WithMany(u => u.Advertisements)//Um Usuario pode ter muitos anuncios
+            .HasForeignKey(a => a.UserId);
              //Um Usuario pode ter muitas Avaliacoes
         //e uma Avaliacao pode estar associada a muitos Usuarios
         // (um usuário como avaliador e outro como avaliado).
         modelBuilder.Entity<Avaluation>()
-        .HasOne(a => a.Avaliador);
-        // .WithMany(u => u.EvaluationsAsEvaluator)
-        // .HasForeignKey(a => a.AvaliadorId);
+        .HasOne(a => a.Avaliador)
+        .WithMany(u => u.AvaluationsAsAvaluator)
+        .HasForeignKey(a => a.AvaliadorId);
 
         modelBuilder.Entity<Avaluation>()
-        .HasOne(a => a.Avaliado);
-        // .WithMany(u => u.EvaluationsAsEvaluated);
+        .HasOne(a => a.Avaliado)
+        .WithMany(u => u.AvaluationsAsAvaluated);
     }
 
 

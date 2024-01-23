@@ -11,5 +11,5 @@ public sealed class Chat : BaseEntity
     public int ReceiverId { get; set; } //destinatario
     public required User Receiver { get; set; }
 
-    ICollection<Message>? Messages { get; set; }
+    public ICollection<Message>? Messages { get; set; }
 }
