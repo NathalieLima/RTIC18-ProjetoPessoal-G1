@@ -22,3 +22,15 @@
 /home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/refint/Escambo.Domain.dll
 /home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/Escambo.Domain.pdb
 /home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/ref/Escambo.Domain.dll
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/bin/Debug/net7.0/Escambo.Domain.deps.json
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/bin/Debug/net7.0/Escambo.Domain.dll
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/bin/Debug/net7.0/Escambo.Domain.pdb
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/Escambo.Domain.csproj.AssemblyReference.cache
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/Escambo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/Escambo.Domain.AssemblyInfoInputs.cache
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/Escambo.Domain.AssemblyInfo.cs
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/Escambo.Domain.csproj.CoreCompileInputs.cache
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/Escambo.Domain.dll
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/refint/Escambo.Domain.dll
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/Escambo.Domain.pdb
+/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/Debug/net7.0/ref/Escambo.Domain.dll

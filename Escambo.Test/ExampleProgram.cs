@@ -1,85 +1,52 @@
-﻿using TechMed.Domain.Entities;
-using TechMed.Infra.Data.Context;
+﻿using Escambo.Domain.Entities;
+using Escambo.Pesistence.Context;
 
-var context = new TechMedContext();
+var context = new EscamboContext();
 
-context.Exames.RemoveRange(context.Exames);
-context.Atendimentos.RemoveRange(context.Atendimentos);
-context.Medicos.RemoveRange(context.Medicos);
-context.Pacientes.RemoveRange(context.Pacientes);
+// Remover dados antigos
+context.Users.RemoveRange(context.Users);
 
-
+// Salvar alterações
 context.SaveChanges();
 
-Console.WriteLine($"Criar um médico no banco de dados");
+Console.WriteLine($"Popular banco de dados");
 
-var medico = new Medico{
-    Nome = "Dr. Dexter",
-    CPF = "123.456.789-00",
-    CRM = "123456",
-    Especialidade = "Clínico Geral",
-    Salario = 10000
-};
-context.Medicos.Add(medico);
+#region Dados para o banco de dados
 
-Console.WriteLine($"Criar um paciente no banco de dados");
-var paciente = new Paciente{
-    Nome = "Valber",
-    CPF = "101.202.303-00",
-    Endereco = "Rua A, 0",
-    Telefone = "1234-5678"
+var usuario1 = new User {
+    UserId = 1,
+    Name = "Náthalie",
+    Email = "usuario1@example.com",
+    Password = "senha123",
+    CPF = "123.456.789-01",
+    RG = "1234567",
+    Birth = new DateTime(1990, 5, 15),
+    Address = "Rua A, 123",
+    Status = 1,
+    Credit = 100
 };
 
-context.Pacientes.Add(paciente);
+var usuario2 = new User {
+    UserId = 2,
+    Name = "Gabriel",
+    Email = "usuario2@example.com",
+    Password = "senha456",
+    CPF = "987.654.321-01",
+    RG = "7654321",
+    Birth = new DateTime(1985, 10, 20),
+    Address = "Rua B, 456",
+    Status = 1,
+    Credit = 80
+};
 
+#endregion
+
+#region Adicionar dados e enviá-los
+
+context.Users.AddRange(usuario1, usuario2);
 context.SaveChanges();
 
+#endregion
 
-Console.WriteLine($"Criar um atendimento no banco de dados");
-
-var atendimento1 = new Atendimento{
-    Medico = medico,
-    Paciente = paciente,
-    DataHora = DateTime.Now
-};
-var atendimento2 = new Atendimento{
-    Medico = medico,
-    Paciente = paciente,
-    DataHora = DateTime.Now+TimeSpan.FromDays(-1)
-};
-var atendimento3 = new Atendimento{
-    Medico = medico,
-    Paciente = paciente,
-    DataHora = DateTime.Now+TimeSpan.FromDays(-2)
-};
-
-context.Atendimentos.AddRange(atendimento1, atendimento2, atendimento3);
-
-var exame1 = new Exame{
-    Local = "Hospital",
-    DataHora = DateTime.Now,
-    Atendimentos = new List<Atendimento>{atendimento1, atendimento2}
-};
-var exame2 = new Exame{
-    Local = "Clínica",
-    DataHora = DateTime.Now+TimeSpan.FromDays(-1),
-    Atendimentos = new List<Atendimento>{atendimento1, atendimento3}
-};
-var exame3 = new Exame{
-    Local = "Consultório",
-    DataHora = DateTime.Now+TimeSpan.FromDays(-2),
-    Atendimentos = new List<Atendimento>{atendimento2, atendimento3}
-};
-
-context.Exames.AddRange(exame1, exame2, exame3);
-
-context.SaveChanges();
 
 Console.WriteLine($"Finalizando o programa");
-
-var valber = context.Pacientes.Where(p => p.Nome == "Valber").FirstOrDefault();
-
-valber.Atendimentos.ToList().ForEach(a => a.Exames.ToList().ForEach(e => Console.WriteLine($"Exame: {e.Local} - {e.DataHora}")));
-
-var atendimentoHospital = context.Atendimentos.Where(a => a.Exames.Any(e => e.Local == "Hospital")).FirstOrDefault();
-
