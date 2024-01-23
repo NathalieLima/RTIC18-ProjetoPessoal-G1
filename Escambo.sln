@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escambo.Domain", "Core\Esca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escambo.Persistence", "Escambo.Persistence\Escambo.Persistence.csproj", "{E31C7B74-37D8-4B19-ABCE-A41553363E49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Escambo.Test", "Escambo.Test\Escambo.Test.csproj", "{BEFDF498-728B-4A98-8DF9-9715ED494863}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{E31C7B74-37D8-4B19-ABCE-A41553363E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E31C7B74-37D8-4B19-ABCE-A41553363E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E31C7B74-37D8-4B19-ABCE-A41553363E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFDF498-728B-4A98-8DF9-9715ED494863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFDF498-728B-4A98-8DF9-9715ED494863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFDF498-728B-4A98-8DF9-9715ED494863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFDF498-728B-4A98-8DF9-9715ED494863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

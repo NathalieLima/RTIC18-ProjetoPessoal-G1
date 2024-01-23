@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tebj26E4qfb7U4fPLRve6B6pE7lXE7YwcDC25VjxvMlM/5SlHJLcog+tg/Lic9iZLJbCO+L4/7B+zT+HDfKc/Q==",
+  "success": true,
+  "projectFilePath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Test/Escambo.Test.csproj",
+  "expectedPackageFiles": [
+    "/home/nathalielima/.nuget/packages/microsoft.entityframeworkcore/7.0.14/microsoft.entityframeworkcore.7.0.14.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.14/microsoft.entityframeworkcore.abstractions.7.0.14.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.14/microsoft.entityframeworkcore.analyzers.7.0.14.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.14/microsoft.entityframeworkcore.relational.7.0.14.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
+    "/home/nathalielima/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

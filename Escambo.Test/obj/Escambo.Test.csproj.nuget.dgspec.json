@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Test/Escambo.Test.csproj": {}
+  },
+  "projects": {
+    "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
+        "projectName": "Escambo.Domain",
+        "projectPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
+        "packagesPath": "/home/nathalielima/.nuget/packages/",
+        "outputPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nathalielima/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj",
+        "projectName": "Escambo.Persistence",
+        "projectPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj",
+        "packagesPath": "/home/nathalielima/.nuget/packages/",
+        "outputPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nathalielima/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
+                "projectPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Test/Escambo.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Test/Escambo.Test.csproj",
+        "projectName": "Escambo.Test",
+        "projectPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Test/Escambo.Test.csproj",
+        "packagesPath": "/home/nathalielima/.nuget/packages/",
+        "outputPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/nathalielima/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj": {
+                "projectPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

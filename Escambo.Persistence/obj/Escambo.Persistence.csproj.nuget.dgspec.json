@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj": {}
+    "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj": {}
   },
   "projects": {
-    "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
+    "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
+        "projectUniqueName": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
         "projectName": "Escambo.Domain",
-        "projectPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
-        "packagesPath": "/home/lores/.nuget/packages/",
-        "outputPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/obj/",
+        "projectPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
+        "packagesPath": "/home/nathalielima/.nuget/packages/",
+        "outputPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lores/.nuget/NuGet/NuGet.Config"
+          "/home/nathalielima/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,21 +53,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj": {
+    "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj",
+        "projectUniqueName": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj",
         "projectName": "Escambo.Persistence",
-        "projectPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj",
-        "packagesPath": "/home/lores/.nuget/packages/",
-        "outputPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Escambo.Persistence/obj/",
+        "projectPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/Escambo.Persistence.csproj",
+        "packagesPath": "/home/nathalielima/.nuget/packages/",
+        "outputPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Escambo.Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lores/.nuget/NuGet/NuGet.Config"
+          "/home/nathalielima/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
-                "projectPath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj"
+              "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj": {
+                "projectPath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj"
               }
             }
           }
@@ -140,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
         }
       }
     }

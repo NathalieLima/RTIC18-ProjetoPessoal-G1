@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "199Vszuq7kgTJa4oK+FjfaKIVineNnNQYA+XZODwlXgP3AqgB2kdHrX0VorXpu4fdWlzcECbOTv+e1j1w+zobg==",
+  "dgSpecHash": "ZyxA3OpplRSUka2fO8HTfxpMrkh/rruwRbeIPm4YzXpwq70Sgs9VhAOGN9f2CYKVE1eSf1nN8OdjvG5KphyTHQ==",
   "success": true,
-  "projectFilePath": "/home/lores/tic18/mer/RTIC18-ProjetoPessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
+  "projectFilePath": "/home/nathalielima/PROJETO_PESSOAL/RTIC18-projetopessoal-G1/Core/Escambo.Domain/Escambo.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
