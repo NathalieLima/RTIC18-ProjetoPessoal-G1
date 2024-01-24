@@ -469,19 +469,19 @@
     ]
   },
   "packageFolders": {
-    "/home/caua-clemente-lima/.nuget/packages/": {}
+    "/home/lorena-andrade-santos/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj",
+      "projectUniqueName": "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj",
       "projectName": "Escambo.WebAPi",
-      "projectPath": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj",
-      "packagesPath": "/home/caua-clemente-lima/.nuget/packages/",
-      "outputPath": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/",
+      "projectPath": "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj",
+      "packagesPath": "/home/lorena-andrade-santos/.nuget/packages/",
+      "outputPath": "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/caua-clemente-lima/.nuget/NuGet/NuGet.Config"
+        "/home/lorena-andrade-santos/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
