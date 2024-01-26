@@ -8,7 +8,6 @@ no nosso projeto, sendo elas:
 - usuarios
 - prestacao_servico
 - anuncios
-- prestacao_servico_has_avaliacoes
 - avaliacoes
 - conversas
 - mensagem

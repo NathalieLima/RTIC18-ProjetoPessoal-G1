@@ -1,16 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJWZOQK2FNf7imh9AYT1iAKlF81+sc0iZvZtdOQx6kwKQ1jdSz/emn9FYTX41rfWIUgtSFOIaBDYCmBbK2SdyQ==",
+  "dgSpecHash": "2YhtlKJc9Xq3fIS0I7bkQNjhj/LKs2nH87xEd+nB/9ji560H9YiUDcJBx2mJYAXmF5AhrqDyAyVPoQ6LSQh3vg==",
   "success": true,
-  "projectFilePath": "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj",
+  "projectFilePath": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
   "expectedPackageFiles": [
-    "/home/lorena-andrade-santos/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
-    "/home/lorena-andrade-santos/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "/home/lorena-andrade-santos/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
-    "/home/lorena-andrade-santos/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
-    "/home/lorena-andrade-santos/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
-    "/home/lorena-andrade-santos/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
-    "/home/lorena-andrade-santos/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+    "/home/caua-clemente-lima/.nuget/packages/microsoft.aspnetcore.openapi/7.0.15/microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
+    "/home/caua-clemente-lima/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/caua-clemente-lima/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/caua-clemente-lima/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/caua-clemente-lima/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/caua-clemente-lima/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/caua-clemente-lima/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

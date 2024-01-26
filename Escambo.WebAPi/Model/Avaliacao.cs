@@ -1,5 +1,4 @@
 namespace Escambo.WebAPI.Model;
-
 public sealed class Avaliacao//avaliação
 {
     public int AvaliacaoId { get; set; }

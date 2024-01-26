@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace Escambo.WebAPI.Model
 {
     public class Anuncio //Tabela Anuncio 

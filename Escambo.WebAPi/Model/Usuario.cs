@@ -2,7 +2,7 @@ namespace Escambo.WebAPI.Model;
 public sealed class Usuario
 {
     public int UsuarioId { get; set; }
-    public string? Nome { get; set; } //nome
+    public required string Nome { get; set; } //nome
     public string? Email{get;set;} //email
     public string? Senha{ get; set; } //senha
     public string? CPF {get; set;}
