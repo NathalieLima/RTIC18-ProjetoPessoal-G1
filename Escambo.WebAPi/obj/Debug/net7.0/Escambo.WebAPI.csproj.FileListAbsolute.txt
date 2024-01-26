@@ -31,36 +31,10 @@
 /home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/Debug/net7.0/Escambo.WebAPI.pdb
 /home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/Debug/net7.0/Escambo.WebAPI.genruntimeconfig.cache
 /home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/Debug/net7.0/ref/Escambo.WebAPI.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\appsettings.Development.json
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\appsettings.json
 c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Escambo.WebAPI.exe
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Escambo.WebAPI.deps.json
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Escambo.WebAPI.runtimeconfig.json
 c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Escambo.WebAPI.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Escambo.WebAPI.pdb
 c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Microsoft.OpenApi.dll
 c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.csproj.AssemblyReference.cache
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.AssemblyInfoInputs.cache
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.AssemblyInfo.cs
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.csproj.CoreCompileInputs.cache
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.MvcApplicationPartsAssemblyInfo.cs
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.MvcApplicationPartsAssemblyInfo.cache
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\staticwebassets\msbuild.Escambo.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\staticwebassets\msbuild.build.Escambo.WebAPI.props
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Escambo.WebAPI.props
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Escambo.WebAPI.props
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\staticwebassets.pack.json
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\staticwebassets.build.json
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\staticwebassets.development.json
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\scopedcss\bundle\Escambo.WebAPI.styles.css
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.csproj.CopyComplete
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\refint\Escambo.WebAPI.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.pdb
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\Escambo.WebAPI.genruntimeconfig.cache
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\obj\Debug\net7.0\ref\Escambo.WebAPI.dll

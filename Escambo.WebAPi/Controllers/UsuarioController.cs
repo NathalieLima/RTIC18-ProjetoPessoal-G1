@@ -37,17 +37,17 @@ public class UsuarioController : ControllerBase
    {
       return NoContent();
    }
-   [HttpGet("usuarios/{id}/conversas")]
+   [HttpGet("usuario/{id}/conversas")]
    public IActionResult GetAllConversas(int id)
    {
       return NoContent();
    }
-   [HttpGet("usuarios/{id}/anuncios")]
+   [HttpGet("usuario/{id}/anuncios")]
    public IActionResult GetAllAnuncios(int id)
    {
       return NoContent();
    }
-   [HttpGet("usuarios/{id}prestacoes")]
+   [HttpGet("usuario/{id}prestacoes")]
    public IActionResult GetAllPrestacoes(int id)
    {
       return NoContent();
