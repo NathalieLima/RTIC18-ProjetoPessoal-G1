@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj": {}
+    "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj": {}
   },
   "projects": {
-    "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj": {
+    "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj",
-        "projectName": "Escambo.WebAPi",
-        "projectPath": "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPi.csproj",
-        "packagesPath": "/home/lorena-andrade-santos/.nuget/packages/",
-        "outputPath": "/home/lorena-andrade-santos/Documentos/p007/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/",
+        "projectUniqueName": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
+        "projectName": "Escambo.WebAPI",
+        "projectPath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\cauac\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lorena-andrade-santos/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\cauac\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
