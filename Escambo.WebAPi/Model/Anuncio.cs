@@ -11,5 +11,8 @@ namespace Escambo.WebAPI.Model
         
         public required Usuario Usuario { get; set; }
         public int UsuarioId { get; set; }
+
+        public ICollection<PrestacaoServico> PrestacaoServiços {get;} = new List<PrestacaoServico>();
+    
     }
 }

@@ -469,19 +469,19 @@
     ]
   },
   "packageFolders": {
-    "/home/caua-clemente-lima/.nuget/packages/": {}
+    "C:\\Users\\cauac\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
       "projectName": "Escambo.WebAPI",
-      "projectPath": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
-      "packagesPath": "/home/caua-clemente-lima/.nuget/packages/",
-      "outputPath": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/",
+      "projectPath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\cauac\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/caua-clemente-lima/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\cauac\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -533,16 +533,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

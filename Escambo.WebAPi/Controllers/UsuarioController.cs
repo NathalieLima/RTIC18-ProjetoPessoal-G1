@@ -9,7 +9,7 @@ namespace TechMed.WebAPI.Controllers;
 public class UsuarioController : ControllerBase
 {
    [HttpGet("usuarios")]
-   public IActionResult Get()
+   public IActionResult GetAll()
    {
       return NoContent();
    }
@@ -37,18 +37,18 @@ public class UsuarioController : ControllerBase
    {
       return NoContent();
    }
-   [HttpGet("usuarios/conversas")]
-   public IActionResult GetAllConversas()
+   [HttpGet("usuarios/{id}/conversas")]
+   public IActionResult GetAllConversas(int id)
    {
       return NoContent();
    }
-   [HttpGet("usuarios/anuncios")]
-   public IActionResult GetAllAnuncios()
+   [HttpGet("usuarios/{id}/anuncios")]
+   public IActionResult GetAllAnuncios(int id)
    {
       return NoContent();
    }
-   [HttpGet("usuarios/prestacoes")]
-   public IActionResult GetAllPrestacoes()
+   [HttpGet("usuarios/{id}prestacoes")]
+   public IActionResult GetAllPrestacoes(int id)
    {
       return NoContent();
    }
