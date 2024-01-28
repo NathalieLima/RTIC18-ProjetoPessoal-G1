@@ -38,8 +38,8 @@ public class UsuarioController : ControllerBase
    {
       return NoContent();
    }
-   [HttpGet("usuario/{id}/chats")]
-   public IActionResult GetAllChats(int id)
+   [HttpGet("usuario/{id}/conversas")]
+   public IActionResult GetAllConversas(int id)
    {
       return NoContent();
    }

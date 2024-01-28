@@ -6,6 +6,6 @@ public sealed class Mensagem
     public string? Texto { get; set; }
     public DateTime DataEnvio { get; set; } //data de envio
     public DateTime HoraEnvio { get; set;} //hora de envio
-    public int ChatId {get;set;}
-    public required Chat Chat {get;set;}
+    public int ConversaId {get;set;}
+    public required Conversa Conversa {get;set;}
 }
