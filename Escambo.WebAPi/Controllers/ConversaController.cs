@@ -21,7 +21,7 @@ public class ConversaController : ControllerBase
    }
 
    [HttpPost("conversa")]
-   public IActionResult Post([FromBody] Conversa conversa)
+   public IActionResult Post()
    {
       return NoContent();
    }
