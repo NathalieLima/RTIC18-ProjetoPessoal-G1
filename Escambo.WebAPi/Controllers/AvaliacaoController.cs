@@ -6,39 +6,39 @@ namespace TechMed.WebAPI.Controllers;
 
 [ApiController]
 [Route("/api/v0.1/")]
-public class AnuncioController : ControllerBase
+public class AvaliacaoController : ControllerBase
 {
-   [HttpGet("anuncios")]
+   [HttpGet("avaliacoes")]
    public IActionResult GetAll()
    {
       return NoContent();
    }
 
-   [HttpGet("anuncio/{id}")]
+   [HttpGet("avaliacao/{id}")]
    public IActionResult GetById(int id)
    {
       return NoContent();
    }
 
-   [HttpPost("anuncio")]
-   public IActionResult Post([FromBody] Anuncio anuncio)
+   [HttpPost("avaliacao")]
+   public IActionResult Post([FromBody] Avaliacao avaliacao)
    {
-      return Ok(anuncio);
+      return Ok(avaliacao);
    }
 
-   [HttpPut("anuncio/{id}")]
-   public IActionResult Put(int id, [FromBody] Anuncio anuncio)
+   [HttpPut("avaliacao/{id}")]
+   public IActionResult Put(int id, [FromBody] Avaliacao avaliacao)
    {
-      anuncio.AnuncioId = id;
-      return Ok(anuncio);
+      avaliacao.AvaliacaoId = id;
+      return Ok(avaliacao);
    }
 
-   [HttpDelete("anuncio/{id}")]
+   [HttpDelete("avaliacao/{id}")]
    public IActionResult Delete(int id)
    {
       return NoContent();
    }
-   [HttpGet("anuncio/{id}/prestacoes")]
+   [HttpGet("avaliacao/{id}/prestacoes")]
    public IActionResult GetAllPrestacoes(int id)
    {
       return NoContent();

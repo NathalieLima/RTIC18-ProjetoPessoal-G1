@@ -23,13 +23,14 @@ public class UsuarioController : ControllerBase
    [HttpPost("usuario")]
    public IActionResult Post([FromBody] Usuario usuario)
    {
-      return NoContent();
+      return Ok(usuario);
    }
 
    [HttpPut("usuario/{id}")]
    public IActionResult Put(int id, [FromBody] Usuario usuario)
    {
-      return NoContent();
+      usuario.UsuarioId = id;
+      return Ok(usuario);
    }
 
    [HttpDelete("usuario/{id}")]
@@ -37,17 +38,17 @@ public class UsuarioController : ControllerBase
    {
       return NoContent();
    }
-   [HttpGet("usuarios/{id}/conversas")]
+   [HttpGet("usuario/{id}/conversas")]
    public IActionResult GetAllConversas(int id)
    {
       return NoContent();
    }
-   [HttpGet("usuarios/{id}/anuncios")]
+   [HttpGet("usuario/{id}/anuncios")]
    public IActionResult GetAllAnuncios(int id)
    {
       return NoContent();
    }
-   [HttpGet("usuarios/{id}prestacoes")]
+   [HttpGet("usuario/{id}prestacoes")]
    public IActionResult GetAllPrestacoes(int id)
    {
       return NoContent();
