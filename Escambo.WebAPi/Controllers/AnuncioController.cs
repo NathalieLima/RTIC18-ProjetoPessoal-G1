@@ -29,7 +29,7 @@ public class AnuncioController : ControllerBase
    [HttpPut("anuncio/{id}")]
    public IActionResult Put(int id, [FromBody] Anuncio anuncio)
    {
-      anuncio.AnuncioId = id;
+      //anuncio.AnuncioId = id;
       return NoContent();
    }
 
