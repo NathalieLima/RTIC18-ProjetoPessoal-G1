@@ -34,10 +34,10 @@ public class UsuariosDB : IUsuarioCollection
          usuarioDB.Nome = usuario.Nome;
       }
    }
-   public ICollection<Conversa> UsuarioGetAllConversas()
+   public ICollection<Chat> UsuarioGetAllChats()
    {
-      List<Conversa> conversas = new List<Conversa>();
-      return conversas;
+      List<Chat> chats = new List<Chat>();
+      return chats;
    }
    public ICollection<Anuncio> UsuarioGetAllAnuncios()
    {
