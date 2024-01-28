@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uvMcTO/ag1ctuNpQh+euZR2dibh7BB2Wmhyzwv//uc+DtzUlAT0ZVwAn+L/kLlfi9VgXoyCSocqT3wDgK/SH2Q==",
+  "dgSpecHash": "p9nkIAKH82PRIe0QdcH7QOVg6eIDSeeJV0iQB4Br37O0npI5OoodSJ2I4/SDorHamyOeRUjCPAsbqWAgUctiNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
+  "projectFilePath": "c:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cauac\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.15\\microsoft.aspnetcore.openapi.7.0.15.nupkg.sha512",
     "C:\\Users\\cauac\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

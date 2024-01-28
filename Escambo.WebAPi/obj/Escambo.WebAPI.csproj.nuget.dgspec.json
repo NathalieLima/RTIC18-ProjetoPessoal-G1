@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj": {}
+    "c:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj": {
+    "c:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
+        "projectUniqueName": "c:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
         "projectName": "Escambo.WebAPI",
-        "projectPath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
+        "projectPath": "c:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
         "packagesPath": "C:\\Users\\cauac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\obj\\",
+        "outputPath": "c:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cauac\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -23,14 +23,14 @@ public class AnuncioController : ControllerBase
    [HttpPost("anuncio")]
    public IActionResult Post([FromBody] Anuncio anuncio)
    {
-      return Ok(anuncio);
+      return NoContent();
    }
 
    [HttpPut("anuncio/{id}")]
    public IActionResult Put(int id, [FromBody] Anuncio anuncio)
    {
       anuncio.AnuncioId = id;
-      return Ok(anuncio);
+      return NoContent();
    }
 
    [HttpDelete("anuncio/{id}")]

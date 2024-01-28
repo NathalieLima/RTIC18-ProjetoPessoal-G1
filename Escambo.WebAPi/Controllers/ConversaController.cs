@@ -6,33 +6,33 @@ namespace TechMed.WebAPI.Controllers;
 
 [ApiController]
 [Route("/api/v0.1/")]
-public class ChatController : ControllerBase
+public class ConversaController : ControllerBase
 {
-   [HttpGet("chats")]
+   [HttpGet("conversas")]
    public IActionResult GetAll()
    {
       return NoContent();
    }
 
-   [HttpGet("chat/{id}")]
+   [HttpGet("conversa/{id}")]
    public IActionResult GetById(int id)
    {
       return NoContent();
    }
 
-   [HttpPost("chat")]
-   public IActionResult Post([FromBody] Chat chat)
+   [HttpPost("conversa")]
+   public IActionResult Post([FromBody] Conversa conversa)
    {
-      return Ok(chat);
+      return NoContent();
    }
 
-   [HttpDelete("chat/{id}")]
+   [HttpDelete("conversa/{id}")]
    public IActionResult Delete(int id)
    {
       return NoContent();
    }
 
-   [HttpGet("chat/{id}/mensagens")]
+   [HttpGet("conversa/{id}/mensagens")]
    public IActionResult GetAllMensagens(int id)
    {
       return NoContent();
