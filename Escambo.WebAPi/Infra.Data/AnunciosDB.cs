@@ -18,13 +18,13 @@ public class AnunciosDB : IAnuncioCollection
    {
       _anuncios.RemoveAll(m => m.AnuncioId == id);
    }
-   public void GetAll()
+   public ICollection<Anuncio> GetAll()
    {
-   
+      return _anuncios.ToArray();
    }
-   public void GetById(int id)
+   public Anuncio? GetById(int id)
    {
-   
+      return _anuncios.FirstOrDefault(m => m.AnuncioId == id);
    }
    public void Update(int id, Anuncio anuncio)
    {
@@ -34,8 +34,9 @@ public class AnunciosDB : IAnuncioCollection
          anuncioDB.Nome = anuncio.Nome;
       }
    }
-   public void AnuncioGetAllPrestacoes()
+   public ICollection<PrestacaoServico> AnuncioGetAllPrestacoes()
    {
-
+      List<PrestacaoServico> prestacoes = new List<PrestacaoServico>();
+      return prestacoes;
    }
 }

@@ -18,21 +18,13 @@ public class UsuariosDB : IUsuarioCollection
    {
       _usuarios.RemoveAll(m => m.UsuarioId == id);
    }
-   // public ICollection<Usuario> GetAll()
-   // {
-   //    return _usuarios.ToArray();
-   // }
-   public void GetAll()
+   public ICollection<Usuario> GetAll()
    {
-   
+      return _usuarios.ToArray();
    }
-   // public Usuario? GetById(int id)
-   // {
-   //    return _usuarios.FirstOrDefault(m => m.UsuarioId == id);
-   // }
-   public void GetById(int id)
+   public Usuario? GetById(int id)
    {
-   
+      return _usuarios.FirstOrDefault(m => m.UsuarioId == id);
    }
    public void Update(int id, Usuario usuario)
    {
@@ -42,16 +34,19 @@ public class UsuariosDB : IUsuarioCollection
          usuarioDB.Nome = usuario.Nome;
       }
    }
-   public void UsuarioGetAllConversas()
+   public ICollection<Conversa> UsuarioGetAllConversas()
    {
-
+      List<Conversa> conversas = new List<Conversa>();
+      return conversas;
    }
-   public void UsuarioGetAllAnuncios()
+   public ICollection<Anuncio> UsuarioGetAllAnuncios()
    {
-
+      List<Anuncio> anuncios = new List<Anuncio>();
+      return anuncios;
    }
-   public void UsuarioGetAllPrestacoes()
+   public ICollection<PrestacaoServico> UsuarioGetAllPrestacoes()
    {
-
+      List<PrestacaoServico> prestacoes = new List<PrestacaoServico>();
+      return prestacoes;
    }
 }

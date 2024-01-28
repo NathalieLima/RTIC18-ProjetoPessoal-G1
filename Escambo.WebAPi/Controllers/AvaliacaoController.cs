@@ -23,13 +23,14 @@ public class AvaliacaoController : ControllerBase
    [HttpPost("avaliacao")]
    public IActionResult Post([FromBody] Avaliacao avaliacao)
    {
-      return NoContent();
+      return Ok(avaliacao);
    }
 
    [HttpPut("avaliacao/{id}")]
    public IActionResult Put(int id, [FromBody] Avaliacao avaliacao)
    {
-      return NoContent();
+      avaliacao.AvaliacaoId = id;
+      return Ok(avaliacao);
    }
 
    [HttpDelete("avaliacao/{id}")]

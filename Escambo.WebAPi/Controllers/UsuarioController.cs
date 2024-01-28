@@ -23,13 +23,14 @@ public class UsuarioController : ControllerBase
    [HttpPost("usuario")]
    public IActionResult Post([FromBody] Usuario usuario)
    {
-      return NoContent();
+      return Ok(usuario);
    }
 
    [HttpPut("usuario/{id}")]
    public IActionResult Put(int id, [FromBody] Usuario usuario)
    {
-      return NoContent();
+      usuario.UsuarioId = id;
+      return Ok(usuario);
    }
 
    [HttpDelete("usuario/{id}")]

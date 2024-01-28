@@ -18,13 +18,13 @@ public class AvaliacoesDB : IAvaliacaoCollection
    {
       _avaliacoes.RemoveAll(m => m.AvaliacaoId == id);
    }
-   public void GetAll()
+   public ICollection<Avaliacao> GetAll()
    {
-   
+      return _avaliacoes.ToArray();
    }
-   public void GetById(int id)
+   public Avaliacao? GetById(int id)
    {
-   
+      return _avaliacoes.FirstOrDefault(m => m.AvaliacaoId == id);
    }
    public void Update(int id, Avaliacao avaliacao)
    {
