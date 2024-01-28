@@ -469,19 +469,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cauac\\.nuget\\packages\\": {}
+    "/home/lores/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
+      "projectUniqueName": "/home/lores/tic18/d3/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
       "projectName": "Escambo.WebAPI",
-      "projectPath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\Escambo.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\cauac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cauac\\Desktop\\dot07\\RTIC18-ProjetoPessoal-G1\\Escambo.WebAPi\\obj\\",
+      "projectPath": "/home/lores/tic18/d3/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
+      "packagesPath": "/home/lores/.nuget/packages/",
+      "outputPath": "/home/lores/tic18/d3/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cauac\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/lores/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -533,7 +533,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
       }
     }
   }
