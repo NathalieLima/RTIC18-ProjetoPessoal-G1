@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj": {}
+    "/home/lores/tic18/d3/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj": {}
   },
   "projects": {
-    "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj": {
+    "/home/lores/tic18/d3/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
+        "projectUniqueName": "/home/lores/tic18/d3/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
         "projectName": "Escambo.WebAPI",
-        "projectPath": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
-        "packagesPath": "/home/caua-clemente-lima/.nuget/packages/",
-        "outputPath": "/home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/",
+        "projectPath": "/home/lores/tic18/d3/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/Escambo.WebAPI.csproj",
+        "packagesPath": "/home/lores/.nuget/packages/",
+        "outputPath": "/home/lores/tic18/d3/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/caua-clemente-lima/.nuget/NuGet/NuGet.Config"
+          "/home/lores/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
         }
       }
     }
