@@ -31,10 +31,3 @@
 /home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/Debug/net7.0/Escambo.WebAPI.pdb
 /home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/Debug/net7.0/Escambo.WebAPI.genruntimeconfig.cache
 /home/caua-clemente-lima/Área de trabalho/p7/RTIC18-ProjetoPessoal-G1/Escambo.WebAPi/obj/Debug/net7.0/ref/Escambo.WebAPI.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Escambo.WebAPI.exe
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Escambo.WebAPI.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Microsoft.OpenApi.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-c:\Users\cauac\Desktop\dot07\RTIC18-ProjetoPessoal-G1\Escambo.WebAPi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
