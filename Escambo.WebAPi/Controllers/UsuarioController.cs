@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Escambo.WebAPI.Infra.Data.Interfaces;
 using Escambo.WebAPI.Model;
+using System;
+using System.Linq;
 
 namespace TechMed.WebAPI.Controllers;
 
@@ -8,51 +10,62 @@ namespace TechMed.WebAPI.Controllers;
 [Route("/api/v0.1/")]
 public class UsuarioController : ControllerBase
 {
-   [HttpGet("usuarios")]
-   public IActionResult GetAll()
-   {
-      return NoContent();
-   }
+    [HttpGet("usuarios")]
+    public IActionResult GetAll()
+    {
+        var usuarios = Enumerable.Range(1, 5).Select(index => new Usuario
+        {
+            UsuarioId = index,
+            Nome = $"Usuário {index}",
+            Email = $"usuario{index}@exemplo.com",
+            DataCadastro = DateTime.Now.AddDays(-index) 
+        }).ToArray();
 
-   [HttpGet("usuario/{id}")]
-   public IActionResult GetById(int id)
-   {
-      return NoContent();
-   }
+        return Ok(usuarios);
+    }
 
-   [HttpPost("usuario")]
-   public IActionResult Post([FromBody] Usuario usuario)
-   {
-      return Ok(usuario);
-   }
+    [HttpGet("usuario/{id}")]
+    public IActionResult GetById(int id)
+    {
+        return NoContent();
+    }
 
-   [HttpPut("usuario/{id}")]
-   public IActionResult Put(int id, [FromBody] Usuario usuario)
-   {
-      usuario.UsuarioId = id;
-      return Ok(usuario);
-   }
+    [HttpPost("usuario")]
+    public IActionResult Post([FromBody] Usuario usuario)
+    {
+        return Ok(usuario);
+    }
 
-   [HttpDelete("usuario/{id}")]
-   public IActionResult Delete(int id)
-   {
-      return NoContent();
-   }
-   [HttpGet("usuario/{id}/conversas")]
-   public IActionResult GetAllConversas(int id)
-   {
-      return NoContent();
-   }
-   [HttpGet("usuario/{id}/anuncios")]
-   public IActionResult GetAllAnuncios(int id)
-   {
-      return NoContent();
-   }
-   [HttpGet("usuario/{id}prestacoes")]
-   public IActionResult GetAllPrestacoes(int id)
-   {
-      return NoContent();
-   }
+    [HttpPut("usuario/{id}")]
+    public IActionResult Put(int id, [FromBody] Usuario usuario)
+    {
+        usuario.UsuarioId = id;
+        return Ok(usuario);
+    }
+
+    [HttpDelete("usuario/{id}")]
+    public IActionResult Delete(int id)
+    {
+        return NoContent();
+    }
+    
+    [HttpGet("usuario/{id}/conversas")]
+    public IActionResult GetAllConversas(int id)
+    {
+        return NoContent();
+    }
+    
+    [HttpGet("usuario/{id}/anuncios")]
+    public IActionResult GetAllAnuncios(int id)
+    {
+        return NoContent();
+    }
+    
+    [HttpGet("usuario/{id}/prestacoes")]
+    public IActionResult GetAllPrestacoes(int id)
+    {
+        return NoContent();
+    }
 }
 
    /*
