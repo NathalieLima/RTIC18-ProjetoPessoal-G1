@@ -24,7 +24,6 @@ namespace Escambo.WebAPI.Controller
             var users = _userService.GetAll();
             return Ok(users);
         }
-
         [HttpGet("usuario/{id}")]
         public ActionResult<UsuarioViewModel> GetUserById(int id)
         {
@@ -35,7 +34,6 @@ namespace Escambo.WebAPI.Controller
             }
             return Ok(user);
         }
-
         [HttpPost("usuario")]
         public ActionResult<int> CreateUser(UsuarioInputModel usuarioInput)
         {
@@ -49,7 +47,6 @@ namespace Escambo.WebAPI.Controller
                 return BadRequest(ex.Message); // Retorna 400 se houver um erro na criação do usuário
             }
         }
-
         [HttpPut("usuario/{id}")]
         public IActionResult UpdateUser(int id, UsuarioInputModel usuarioInput)
         {
