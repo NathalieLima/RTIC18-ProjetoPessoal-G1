@@ -15,3 +15,20 @@
 /home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/refint/Escabo.Application.dll
 /home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.pdb
 /home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/ref/Escabo.Application.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/bin/Debug/net7.0/Escabo.Application.deps.json
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/bin/Debug/net7.0/Escabo.Application.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/bin/Debug/net7.0/Escabo.Application.pdb
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/bin/Debug/net7.0/Escambo.Domain.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/bin/Debug/net7.0/Escambo.Infra.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/bin/Debug/net7.0/Escambo.Infra.pdb
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/bin/Debug/net7.0/Escambo.Domain.pdb
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.csproj.AssemblyReference.cache
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.AssemblyInfoInputs.cache
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.AssemblyInfo.cs
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.csproj.CoreCompileInputs.cache
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.csproj.CopyComplete
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/refint/Escabo.Application.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/Escabo.Application.pdb
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escabo.Application/obj/Debug/net7.0/ref/Escabo.Application.dll

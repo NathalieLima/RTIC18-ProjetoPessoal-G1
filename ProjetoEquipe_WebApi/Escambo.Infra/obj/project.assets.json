@@ -1043,19 +1043,19 @@
     ]
   },
   "packageFolders": {
-    "/home/daniel-oliveira-da-silva/.nuget/packages/": {}
+    "/home/lores/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/Escambo.Infra.csproj",
+      "projectUniqueName": "/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/Escambo.Infra.csproj",
       "projectName": "Escambo.Infra",
-      "projectPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/Escambo.Infra.csproj",
-      "packagesPath": "/home/daniel-oliveira-da-silva/.nuget/packages/",
-      "outputPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/",
+      "projectPath": "/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/Escambo.Infra.csproj",
+      "packagesPath": "/home/lores/.nuget/packages/",
+      "outputPath": "/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/daniel-oliveira-da-silva/.nuget/NuGet/NuGet.Config"
+        "/home/lores/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -1067,8 +1067,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Domain/Escambo.Domain.csproj": {
-              "projectPath": "/home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Domain/Escambo.Domain.csproj"
+            "/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Domain/Escambo.Domain.csproj": {
+              "projectPath": "/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Domain/Escambo.Domain.csproj"
             }
           }
         }
@@ -1128,7 +1128,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.115/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
       }
     }
   }

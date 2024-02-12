@@ -1,22 +1,21 @@
-using System.Runtime.InteropServices;
-
-namespace Escambo.Domain.Entities;
-public class Usuario
+namespace Escambo.Dommain.Model;
+public sealed class Usuario : BaseEntity
 {
     public int UsuarioId { get; set; }
-    public string? Nome { get; set; }
-    public string? Email { get; set; }  
-    public string? CPF {get;set;}
-    public string? Telefone {get;set;}
-   
-    public int EnderecoId {get;set;}
-    public Endereco? Endereco {get;set;}
+    public string? Nome { get; set; } 
+    public string? Email { get; set; }
+    public string? Senha { get; set; } 
+    public string? CPF { get; set; }
+    public string? RG { get; set; }
+    public DateTime Nascimento { get; set; } 
+    public string? Endereço { get; set; } 
+    public int Status { get; set; }
+    public decimal Credito { get; set; } 
+    public string? LinkLinkedln { get; set; }
+    public string? Sobre { get; set; }
 
-    public int LoginId { get; set; }
-    public Login? Login { get; set; }
-
-    public ICollection<Chat>? Chats { get; set; }
-    public ICollection<Anucio>? Anucios { get; set; }
-    public ICollection<PrestacaoServico>? PrestacaoServicos { get; set; }
-    public ICollection<Avaliacao>? Avaliacoes { get; set; }
+    public ICollection<Anuncio>? Anuncios { get; set; }
+    public ICollection<Mensagem>? Mensagens { get; set; }
+    public ICollection<PrestacaoServicoHasUsuarios>? PrestacaoServicoHasUsuarios { get; set; }
+    public ICollection<ConversasHasUsuarios>? ConversasHasUsuarios { get; set; }
 }

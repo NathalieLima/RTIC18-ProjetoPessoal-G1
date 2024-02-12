@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Escabo.Application/1.0.0": {
         "dependencies": {
+          "Escambo.Domain": "1.0.0",
           "Escambo.Infra": "1.0.0"
         },
         "runtime": {

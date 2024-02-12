@@ -1,3 +1,5 @@
+using Escabo.Application.Services;
+using Escabo.Application.Services.Interface;
 using Escambo.Application.Services;
 using Escambo.Application.Services.Interface;
 using Escambo.Infra.Context;
@@ -14,6 +16,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<ILoginService, LoginService>();
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
 builder.Services.AddDbContext<EscamboContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("Escambo");

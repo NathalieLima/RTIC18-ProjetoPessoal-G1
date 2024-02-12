@@ -9,6 +9,7 @@
       "Escambo.WebApi/1.0.0": {
         "dependencies": {
           "Escabo.Application": "1.0.0",
+          "Escambo.Infra": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "7.0.15",
           "Microsoft.EntityFrameworkCore.Design": "7.0.14",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0",
@@ -234,6 +235,7 @@
       },
       "Escabo.Application/1.0.0": {
         "dependencies": {
+          "Escambo.Domain": "1.0.0",
           "Escambo.Infra": "1.0.0"
         },
         "runtime": {

@@ -15,3 +15,20 @@
 /home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/ref/Escambo.Infra.dll
 /home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/bin/Debug/net7.0/Escambo.Infra.runtimeconfig.json
 /home/daniel-oliveira-da-silva/Área de trabalho/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.genruntimeconfig.cache
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/bin/Debug/net7.0/Escambo.Infra.deps.json
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/bin/Debug/net7.0/Escambo.Infra.runtimeconfig.json
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/bin/Debug/net7.0/Escambo.Infra.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/bin/Debug/net7.0/Escambo.Infra.pdb
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/bin/Debug/net7.0/Escambo.Domain.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/bin/Debug/net7.0/Escambo.Domain.pdb
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.csproj.AssemblyReference.cache
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.GeneratedMSBuildEditorConfig.editorconfig
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.AssemblyInfoInputs.cache
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.AssemblyInfo.cs
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.csproj.CoreCompileInputs.cache
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.csproj.CopyComplete
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/refint/Escambo.Infra.dll
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.pdb
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/Escambo.Infra.genruntimeconfig.cache
+/home/lores/tic18/p010/RTIC18-ProjetoPessoal-G1/ProjetoEquipe_WebApi/Escambo.Infra/obj/Debug/net7.0/ref/Escambo.Infra.dll

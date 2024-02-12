@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Escabo.Application\Escabo.Application.csproj" />
+    <ProjectReference Include="..\Escambo.Infra\Escambo.Infra.csproj" />
   </ItemGroup>
 
 </Project>
