@@ -18,7 +18,6 @@ public class UsuarioController : ControllerBase
             UsuarioId = index,
             Nome = $"Usuário {index}",
             Email = $"usuario{index}@exemplo.com",
-            DataCadastro = DateTime.Now.AddDays(-index) 
         }).ToArray();
 
         return Ok(usuarios);
